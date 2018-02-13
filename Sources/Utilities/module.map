@@ -1,0 +1,4 @@
+module RSParserInternal {
+    header "RSParserInternal.h"
+    export *
+}
