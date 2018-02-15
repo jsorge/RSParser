@@ -78,7 +78,9 @@ static BOOL bytesStartWithRSS(const char *bytes, NSUInteger numberOfBytes);
 }
 
 - (BOOL)isProbablyHFeed {
-    return didFindString("h-feed", self.bytes, self.length);
+    BOOL hasHFeed = didFindString("h-feed", self.bytes, self.length);
+    BOOL hasHEntry = didFindString("h-entry", self.bytes, self.length);
+    return hasHFeed || hasHEntry;
 }
 
 @end

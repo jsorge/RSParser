@@ -8,6 +8,32 @@
 
 import Foundation
 
+protocol MicroType {
+    static var metaValue: String { get }
+    var rawData: String { get set }
+    var tag: String { get }
+}
+
+extension MicroType {
+    mutating func append(_ characters: UnsafePointer<UInt8>) {
+        let converted = String(cString: characters)
+        rawData += converted
+    }
+}
+
+struct MicroTypeParser {
+    static func createInstance(from identifier: String, tag: String) -> MicroType? {
+        switch identifier {
+        case HFeed.metaValue:
+            return HFeed(tag: tag)
+        case HEntry.metaValue:
+            return HEntry(tag: tag)
+        default:
+            return nil
+        }
+    }
+}
+
 struct HCard: HEntryLocation {
     
 }

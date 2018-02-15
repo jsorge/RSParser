@@ -10,7 +10,15 @@ import Foundation
 
 // http://microformats.org/wiki/h-entry
 
-struct HEntry {
+class HEntry: MicroType {
+    static var metaValue = "h-entry"
+    var tag: String
+    var rawData = ""
+
+    init(tag: String) {
+        self.tag = tag
+    }
+
     private struct Parsed {
         var name: String?
         var summary: String?
@@ -27,8 +35,6 @@ struct HEntry {
         var likeOf: HCite?
         var repostOf: HCite?
     }
-    
-    
 }
 
 //private enum HEntryProperty: String {

@@ -10,7 +10,7 @@ import XCTest
 import RSParser
 
 class HEntryParserTests: XCTestCase {
-    func testSampleFeed() {
+    func testTantekHFeed() {
         let d = parserData("tantek.com", "html", "http://tantek.com")
         do {
             let parsedFeed = try FeedParser.parse(d)
@@ -18,6 +18,17 @@ class HEntryParserTests: XCTestCase {
         }
         catch {
             
+        }
+    }
+
+    func testPareckiHEntries() {
+        let d = parserData("aaronparecki.com", "html", "https://aaronparecki.com")
+        do {
+            let parsedFeed = try FeedParser.parse(d)
+            XCTAssertTrue(parsedFeed == nil)
+        }
+        catch {
+
         }
     }
 }

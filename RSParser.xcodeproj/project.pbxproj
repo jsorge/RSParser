@@ -108,9 +108,10 @@
 		84B19A771FDA438300458981 /* natasha.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84B19A761FDA438300458981 /* natasha.xml */; };
 		84DCCC661FF80E0100D2DDF1 /* EntityDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCCC651FF80E0100D2DDF1 /* EntityDecodingTests.swift */; };
 		84FF5F8E1EFA285800C15A01 /* RSParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FF5F841EFA285800C15A01 /* RSParser.framework */; };
-		93CC9749203154F500789717 /* HFeedParser+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CC9744203154F500789717 /* HFeedParser+Extensions.swift */; };
+		9386542A20337E1700094C36 /* HFeedHTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386542920337E1700094C36 /* HFeedHTMLParser.swift */; };
+		938A102620353C20008F99B7 /* aaronparecki.com.html in Resources */ = {isa = PBXBuildFile; fileRef = 938A102520353C20008F99B7 /* aaronparecki.com.html */; };
 		93CC974A203154F500789717 /* HEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CC9745203154F500789717 /* HEntry.swift */; };
-		93CC974C203154F500789717 /* HFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CC9747203154F500789717 /* HFeedParser.swift */; };
+		93CC974C203154F500789717 /* HFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CC9747203154F500789717 /* HFeed.swift */; };
 		93CC974D203154F500789717 /* MicroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CC9748203154F500789717 /* MicroTypes.swift */; };
 		93CC97522031566600789717 /* h-entry.html in Resources */ = {isa = PBXBuildFile; fileRef = 93CC974F2031566600789717 /* h-entry.html */; };
 		93CC97532031566600789717 /* tantek.com.html in Resources */ = {isa = PBXBuildFile; fileRef = 93CC97502031566600789717 /* tantek.com.html */; };
@@ -236,9 +237,10 @@
 		84FF5F841EFA285800C15A01 /* RSParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FF5F8D1EFA285800C15A01 /* RSParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FF5F941EFA285800C15A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93CC9744203154F500789717 /* HFeedParser+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HFeedParser+Extensions.swift"; sourceTree = "<group>"; };
+		9386542920337E1700094C36 /* HFeedHTMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFeedHTMLParser.swift; sourceTree = "<group>"; };
+		938A102520353C20008F99B7 /* aaronparecki.com.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = aaronparecki.com.html; sourceTree = "<group>"; };
 		93CC9745203154F500789717 /* HEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HEntry.swift; sourceTree = "<group>"; };
-		93CC9747203154F500789717 /* HFeedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFeedParser.swift; sourceTree = "<group>"; };
+		93CC9747203154F500789717 /* HFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFeed.swift; sourceTree = "<group>"; };
 		93CC9748203154F500789717 /* MicroTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroTypes.swift; sourceTree = "<group>"; };
 		93CC974F2031566600789717 /* h-entry.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "h-entry.html"; sourceTree = "<group>"; };
 		93CC97502031566600789717 /* tantek.com.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tantek.com.html; sourceTree = "<group>"; };
@@ -505,10 +507,10 @@
 		93CC9743203154F500789717 /* HFeed */ = {
 			isa = PBXGroup;
 			children = (
-				93CC9747203154F500789717 /* HFeedParser.swift */,
-				93CC9744203154F500789717 /* HFeedParser+Extensions.swift */,
-				93CC9745203154F500789717 /* HEntry.swift */,
+				9386542920337E1700094C36 /* HFeedHTMLParser.swift */,
 				93CC9748203154F500789717 /* MicroTypes.swift */,
+				93CC9747203154F500789717 /* HFeed.swift */,
+				93CC9745203154F500789717 /* HEntry.swift */,
 			);
 			name = HFeed;
 			path = Sources/Feeds/HFeed;
@@ -520,6 +522,7 @@
 				93CC974F2031566600789717 /* h-entry.html */,
 				93CC97502031566600789717 /* tantek.com.html */,
 				93CC97512031566600789717 /* nested-h-card.html */,
+				938A102520353C20008F99B7 /* aaronparecki.com.html */,
 			);
 			path = "Micro Formats";
 			sourceTree = "<group>";
@@ -677,6 +680,7 @@
 				840FDCB81F0218670041F61B /* DaringFireball.atom in Resources */,
 				849A03D91F0081EA00122600 /* sixcolors.html in Resources */,
 				842A42011FB77A5A00EA22E4 /* dcrainmaker.xml in Resources */,
+				938A102620353C20008F99B7 /* aaronparecki.com.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,7 +706,7 @@
 				665516C020287E7300E6ACB0 /* RSSAXParser.m in Sources */,
 				66551660202754B800E6ACB0 /* ParsedAuthor.swift in Sources */,
 				665516BA20287E5700E6ACB0 /* RSOPMLFeedSpecifier.m in Sources */,
-				93CC9749203154F500789717 /* HFeedParser+Extensions.swift in Sources */,
+				9386542A20337E1700094C36 /* HFeedHTMLParser.swift in Sources */,
 				6655169A20287E1700E6ACB0 /* RSHTMLMetadataParser.m in Sources */,
 				665516B820287E5700E6ACB0 /* RSOPMLItem.m in Sources */,
 				6655169B20287E1700E6ACB0 /* RSHTMLTag.m in Sources */,
@@ -726,7 +730,7 @@
 				6655169620287E1700E6ACB0 /* RSSAXHTMLParser.m in Sources */,
 				93CC974A203154F500789717 /* HEntry.swift in Sources */,
 				6655169920287E1700E6ACB0 /* RSHTMLLinkParser.m in Sources */,
-				93CC974C203154F500789717 /* HFeedParser.swift in Sources */,
+				93CC974C203154F500789717 /* HFeed.swift in Sources */,
 				66551688202754EB00E6ACB0 /* RSSParser.swift in Sources */,
 				665516CE20287E8C00E6ACB0 /* NSString+RSParser.m in Sources */,
 			);
@@ -986,7 +990,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = GECHUE5BZ4;
+				DEVELOPMENT_TEAM = 385FZWAEL2;
 				INFOPLIST_FILE = RSParserTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ranchero.RSParserTests;
@@ -1003,7 +1007,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = GECHUE5BZ4;
+				DEVELOPMENT_TEAM = 385FZWAEL2;
 				INFOPLIST_FILE = RSParserTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ranchero.RSParserTests;

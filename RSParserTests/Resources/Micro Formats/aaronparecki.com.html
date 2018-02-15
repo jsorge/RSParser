@@ -1,0 +1,1552 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>Aaron Parecki</title>
+                <link rel="webmention" href="https://webmention.io/aaronpk/webmention">
+                    <link rel="openid.delegate" href="https://aaronparecki.com/">
+                        <link rel="openid.server" href="https://openid.indieauth.com/openid">
+                            <link rel="feed" href="/syndicated">
+                                <link rel="feed" href="/all">
+                                    <link rel="alternate" type="application/jf2feed+json" href="/primary.jf2">
+                                        <link rel="alternate" type="application/json" href="/feed.json">
+                                            <link rel="alternate" type="application/atom+xml" href="/feed.xml">
+                                                <link rel="microsub" href="https://aperture.p3k.io/microsub/1">
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "http://schema.org",
+                                                            "@type": "WebSite",
+                                                            "url": "https://aaronparecki.com/",
+                                                            "potentialAction": {
+                                                                "@type": "SearchAction",
+                                                                "target": "https://aaronparecki.com/search?q={search_term_string}",
+                                                                "query-input": "required name=search_term_string"
+                                                            }
+                                                        }
+                                                    </script>
+                                                    <link rel="authorization_endpoint" href="https://aaronparecki.com/auth">
+                                                        <link rel="token_endpoint" href="https://aaronparecki.com/auth/token">
+                                                            <link rel="micropub" href="https://aaronparecki.com/micropub">
+                                                                <link rel="stylesheet" type="text/css" href="/semantic/2.2.6/semantic.min.css">
+                                                                    <script src="/assets/jquery-1.12.0.min.js"></script>
+                                                                    <script src="/semantic/2.2.6/semantic.min.js"></script>
+                                                                    <link rel="stylesheet" href="/assets/icomoon/style.css">
+                                                                        <link rel="stylesheet" href="/assets/weather-icons/css/weather-icons.css">
+                                                                            <script src="/assets/featherlight-1.5.0/featherlight.min.js"></script>
+                                                                            <link rel="stylesheet" href="/assets/featherlight-1.5.0/featherlight.min.css">
+                                                                                <link rel="stylesheet" href="/assets/admin.css">
+                                                                                    <link rel="stylesheet" href="/assets/pulse.css">
+                                                                                        <link rel="stylesheet" href="/assets/styles.1.css">
+                                                                                            <link rel="stylesheet" href="/site/styles.1.css">
+                                                                                                <link rel="stylesheet" href="/assets/carbon.css">
+                                                                                                    <script src="/assets/photo-albums/justified-layout.js"></script>
+                                                                                                    <script src="/assets/photo-albums/photo-layout.js"></script>
+                                                                                                    <script src="/assets/js-cookie.js"></script>
+
+                                                                                                    <link rel="stylesheet" href="/assets/story.css">
+                                                                                                        <script src="/assets/story.js"></script>
+
+                                                                                                        <script src="https://chat.pin13.net/chat.js"></script>
+                                                                                                        <link rel="stylesheet" href="https://chat.pin13.net/chat.css">
+                                                                                                            </head>
+    <body>
+
+        <div class="sticky-footer-content">
+            <div class="top-bar">
+                <div class="ui container">
+                    <form action="/search" method="get" class="search item">
+                        <div class="ui icon input">
+                            <input type="text" name="q" placeholder="Search..." value="">
+                                <i class="search icon"></i>
+                                </div>
+                    </form>
+                    <span class="item">41&deg;F</span>
+                    <span class="weather item">
+                        <i class="wi wi-night-alt-partly-cloudy" title="Partly Cloudy in Portland"></i>
+                    </span>
+                    <span class="time item"></span>
+                    <span class="battery item"></span>
+                    <div id="logged-in-menu">
+                    </div>
+                </div>
+            </div>
+            <div class="ui container">
+
+
+                <div class="h-card">
+                    <div class="subfooter homepage-about">
+                        <div class="site-header homepage-coverphoto">
+                            <div></div>
+                            <h1>Aaron Parecki</h1>
+                        </div>
+                        <div class="about">
+                            <div class="image"><a href="/" class="u-url u-uid"><img src="/images/profile.jpg" class="u-photo"></a></div>
+                            <div class="bio">
+                                <div class="p-note">
+                                    <p>Hi, I'm <span class="p-name">Aaron<span style="display:none;"> Parecki</span></span>,  co-founder of
+                                    <a class="p-org h-card" href="https://indieweb.org/">IndieWebCamp</a>.
+                                    I maintain <a class="p-org h-card" href="https://oauth.net/">oauth.net</a>, <a href="/oauth/">write and consult about OAuth</a>, and
+                                    am the editor of several <a href="/w3c/">W3C specfications</a>. I record <a href="https://backpedal.tv">videos for local conferences</a> and help run a <a href="https://streampdx.com">podcast studio in Portland</a>.</p>
+
+                                    <p>I wrote <a href="https://100.aaronparecki.com/">100 songs in 100 days</a>! I've been <a href="/gps/">tracking my location</a> since 2008,
+                                    and write down everything I <a href="/ate">eat</a> and <a href="/drank">drink</a>.
+                                    I've <a href="/presentations">spoken</a> at conferences around the world about
+                                    <a href="/presentations?tag=indieweb">owning your data</a>,
+                                    <a href="/oauth/">OAuth</a>,
+                                    <a href="/presentations?tag=quantifiedself">quantified self</a>,
+                                    and explained <a href="https://www.youtube.com/watch?v=FGVJ0eXTRpw">why R is a vowel</a>.</p> <time class="dt-bday" datetime="--12-28"></time>        </div>
+                            </div>
+                            <div>
+                                <div class="orgs">
+                                    <ul>
+                                        <li class="p-org h-card">
+                                            <img src="/images/indiewebcamp.png" alt="" class="u-photo">
+                                                <a href="https://indieweb.org/" class="u-url">
+                                                    <span class="p-name">IndieWebCamp</span>
+                                                </a>
+                                                <a class="p-role" href="https://indieweb.org/founders">Founder</a>
+                                                </li>
+                                        <li class="p-org h-card">
+                                            <img src="/images/w3c.png" alt="" class="u-photo">
+                                                <a href="https://www.w3.org/" class="u-url">
+                                                    <span class="p-name">W3C</span>
+                                                </a>
+                                                <a class="p-role" href="/w3c/">Editor</a>
+                                                </li>
+                                        <li class="p-org h-card">
+                                            <img src="/images/streampdx.png" alt="" class="u-photo">
+                                                <a href="https://streampdx.com" class="u-url">
+                                                    <span class="p-name">Stream PDX</span>
+                                                </a>
+                                                <a class="p-role" href="https://streampdx.com/who">Co-Founder</a>
+                                                </li>
+                                        <li class="p-org h-card">
+                                            <img src="/images/backpedal.png" alt="" class="u-photo">
+                                                <a href="https://backpedal.tv" class="u-url">backpedal.tv</a>
+                                                </li>
+                                        <li><br></li>
+                                        <!--
+                                         <li><img src="/images/spotify.ico" alt=""> <a href="/sunshine-indie-pop/">Sunshine Indie Pop</a></li>
+                                         -->
+                                        <li>
+                                            <img src="/images/microphone.png" alt="">
+                                                <a class="p-callsign u-url" href="https://w7apk.com">W7APK</a>
+                                                </li>
+                                        <li>⭐️ <a href="https://aaronparecki.com/life-stack/">Life Stack</a></li>
+                                    </ul>
+
+                                    <link rel="pgpkey" href="/key.txt">
+                                        <link rel="me" href="sms:+15035678642">
+                                        <link rel="me" href="https://micro.blog/aaronpk">        </div>
+                                <div class="sparklines">
+                                    <ul>
+                                        <li>
+                                            <span style="width:80px; display:inline-block;"><svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:ev="http://www.w3.org/2001/xml-events"
+                                                version="1.1"
+                                                baseProfile="full"
+                                                width="100%" height="10"
+                                                viewBox="0 -0.5 80 10"
+                                                preserveAspectRatio="none"
+                                                numPoints="65"><polyline stroke="rgba(0,0,0,0.7)" fill="none" points="0,0 1.2,1.1 2.5,1.1 3.7,2.3 4.9,1.1 6.2,0 7.4,3.4 8.6,7.9 9.8,9 11.1,9 12.3,9 13.5,7.9 14.8,6.8 16,9 17.2,9 18.5,7.9 19.7,9 20.9,9 22.2,6.8 23.4,9 24.6,9 25.8,9 27.1,7.9 28.3,6.8 29.5,9 30.8,9 32,9 33.2,9 34.5,7.9 35.7,9 36.9,9 38.2,9 39.4,7.9 40.6,9 41.8,9 43.1,9 44.3,9 45.5,9 46.8,7.9 48,9 49.2,9 50.5,7.9 51.7,9 52.9,9 54.2,9 55.4,9 56.6,9 57.8,9 59.1,7.9 60.3,9 61.5,9 62.8,9 64,5.6 65.2,7.9 66.5,9 67.7,9 68.9,6.8 70.2,6.8 71.4,7.9 72.6,9 73.8,9 75.1,6.8 76.3,9 77.5,9 78.8,7.9"/></svg></span>
+                                            <a href="/articles">347 Articles</a>
+                                        </li>
+                                        <li>
+                                            <span style="width:80px; display:inline-block;"><svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:ev="http://www.w3.org/2001/xml-events"
+                                                version="1.1"
+                                                baseProfile="full"
+                                                width="100%" height="10"
+                                                viewBox="0 -0.5 80 10"
+                                                preserveAspectRatio="none"
+                                                numPoints="53"><polyline stroke="rgba(0,0,0,0.7)" fill="none" points="0,2.6 1.5,0.9 3,6.4 4.5,4.3 6,7.3 7.5,7.7 9.1,3.9 10.6,7.7 12.1,6.9 13.6,5.1 15.1,5.6 16.6,6.4 18.1,8.6 19.6,7.3 21.1,7.3 22.6,7.7 24.2,8.6 25.7,7.3 27.2,8.6 28.7,3.9 30.2,7.7 31.7,3 33.2,0 34.7,5.1 36.2,4.7 37.7,2.6 39.2,6 40.8,6.9 42.3,8.1 43.8,6.4 45.3,5.1 46.8,6 48.3,5.6 49.8,6.9 51.3,3.4 52.8,5.6 54.3,6 55.8,6.4 57.4,5.1 58.9,8.1 60.4,7.3 61.9,7.3 63.4,7.7 64.9,7.3 66.4,8.1 67.9,6.9 69.4,8.6 70.9,6.4 72.5,6.4 74,6 75.5,3 77,6 78.5,6"/></svg></span>
+                                            <a href="/bookmarks">2997 Bookmarks</a>
+                                        </li>
+                                        <li>
+                                            <span style="width:80px; display:inline-block;"><svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:ev="http://www.w3.org/2001/xml-events"
+                                                version="1.1"
+                                                baseProfile="full"
+                                                width="100%" height="10"
+                                                viewBox="0 -0.5 80 10"
+                                                preserveAspectRatio="none"
+                                                numPoints="52"><polyline stroke="rgba(0,0,0,0.7)" fill="none" points="0,9 1.5,9 3.1,9 4.6,8.9 6.2,8.7 7.7,7.5 9.2,6.6 10.8,6.7 12.3,6.8 13.8,7 15.4,7.8 16.9,7.3 18.5,5.1 20,3.2 21.5,3.6 23.1,7 24.6,7.4 26.2,4.6 27.7,0 29.2,5.6 30.8,7.5 32.3,6.4 33.8,7.5 35.4,7 36.9,7.6 38.5,6.2 40,7 41.5,6 43.1,4.7 44.6,2.8 46.2,6.8 47.7,7.4 49.2,7.6 50.8,7.7 52.3,6.3 53.8,5.5 55.4,4.9 56.9,8 58.5,7.1 60,6.8 61.5,7.6 63.1,7.8 64.6,6.6 66.2,4 67.7,6.5 69.2,7.1 70.8,7.3 72.3,6.8 73.8,6 75.4,6.7 76.9,6.1 78.5,8"/></svg></span>
+                                            <a href="/checkins">1315 Checkins</a>
+                                        </li>
+                                        <li>
+                                            <span style="width:80px; display:inline-block;"><svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:ev="http://www.w3.org/2001/xml-events"
+                                                version="1.1"
+                                                baseProfile="full"
+                                                width="100%" height="10"
+                                                viewBox="0 -0.5 80 10"
+                                                preserveAspectRatio="none"
+                                                numPoints="55"><polyline stroke="rgba(0,0,0,0.7)" fill="none" points="0,7.7 1.5,6.4 2.9,3.9 4.4,5.1 5.8,7.7 7.3,3.9 8.7,6.4 10.2,3.9 11.6,3.9 13.1,5.1 14.5,2.6 16,7.7 17.5,0 18.9,6.4 20.4,6.4 21.8,6.4 23.3,5.1 24.7,7.7 26.2,6.4 27.6,3.9 29.1,7.7 30.5,6.4 32,7.7 33.5,7.7 34.9,3.9 36.4,6.4 37.8,7.7 39.3,2.6 40.7,7.7 42.2,6.4 43.6,1.3 45.1,1.3 46.5,9 48,9 49.5,6.4 50.9,6.4 52.4,5.1 53.8,7.7 55.3,3.9 56.7,1.3 58.2,9 59.6,9 61.1,7.7 62.5,9 64,9 65.5,1.3 66.9,3.9 68.4,5.1 69.8,7.7 71.3,7.7 72.7,6.4 74.2,1.3 75.6,6.4 77.1,6.4 78.5,6.4"/></svg></span>
+                                            <a href="/notes">2835 Notes</a>
+                                        </li>
+                                        <li>
+                                            <span style="width:80px; display:inline-block;"><svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:ev="http://www.w3.org/2001/xml-events"
+                                                version="1.1"
+                                                baseProfile="full"
+                                                width="100%" height="10"
+                                                viewBox="0 -0.5 80 10"
+                                                preserveAspectRatio="none"
+                                                numPoints="55"><polyline stroke="rgba(0,0,0,0.7)" fill="none" points="0,7 1.5,7 2.9,8.2 4.4,5.9 5.8,7.8 7.3,5.9 8.7,5.9 10.2,6.3 11.6,7.4 13.1,5.1 14.5,6.7 16,9 17.5,9 18.9,3.9 20.4,0 21.8,7 23.3,8.2 24.7,7.8 26.2,8.2 27.6,5.1 29.1,7.4 30.5,7.4 32,7.4 33.5,5.9 34.9,8.6 36.4,7.4 37.8,7.8 39.3,7.4 40.7,7 42.2,5.9 43.6,7.8 45.1,8.2 46.5,8.2 48,8.2 49.5,8.2 50.9,7.8 52.4,8.2 53.8,9 55.3,9 56.7,8.6 58.2,8.6 59.6,7.8 61.1,9 62.5,9 64,9 65.5,8.2 66.9,9 68.4,9 69.8,9 71.3,9 72.7,8.6 74.2,8.6 75.6,8.2 77.1,8.6 78.5,8.6"/></svg></span>
+                                            <a href="/photos">1369 Photos</a>
+                                        </li>
+                                        <li>
+                                            <span style="width:80px; display:inline-block;"><svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xmlns:ev="http://www.w3.org/2001/xml-events"
+                                                version="1.1"
+                                                baseProfile="full"
+                                                width="100%" height="10"
+                                                viewBox="0 -0.5 80 10"
+                                                preserveAspectRatio="none"
+                                                numPoints="55"><polyline stroke="rgba(0,0,0,0.7)" fill="none" points="0,7.8 1.5,4.1 2.9,4.5 4.4,4.5 5.8,4.9 7.3,4.9 8.7,4.9 10.2,3.3 11.6,4.5 13.1,3.7 14.5,7 16,4.9 17.5,6.5 18.9,9 20.4,9 21.8,5.7 23.3,6.1 24.7,4.5 26.2,5.7 27.6,9 29.1,9 30.5,4.9 32,5.3 33.5,1.2 34.9,6.1 36.4,2 37.8,6.1 39.3,0 40.7,0.8 42.2,0.8 43.6,4.9 45.1,5.7 46.5,2.5 48,5.7 49.5,5.3 50.9,4.1 52.4,7 53.8,8.6 55.3,5.3 56.7,6.5 58.2,5.7 59.6,7.8 61.1,7.4 62.5,7 64,5.3 65.5,4.5 66.9,9 68.4,9 69.8,8.2 71.3,8.6 72.7,7.4 74.2,6.1 75.6,6.5 77.1,7 78.5,4.5"/></svg></span>
+                                            <a href="/rides">2752 Rides</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <style>
+                    .pixel-grid svg {
+                        height: 100% !important;
+                    }
+                </style>
+                <div class="featured-content-row no-flex">
+                    <div class="pixel-grid"><svg viewBox="0 0 621 94" style="width:100%; height:auto;" version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg"><defs><style type="text/css"><![CDATA[ rect[data-state="1"]{fill:#4183C4;} rect[data-state="0"]{fill:#9bd222;} ]]></style></defs><rect x="1" y="1" width="30" height="30" data-state="1" data-x="0" data-y="0" /><rect x="32" y="1" width="30" height="30" data-state="1" data-x="1" data-y="0" /><rect x="63" y="1" width="30" height="30" data-state="1" data-x="2" data-y="0" /><rect x="94" y="1" width="30" height="30" data-state="1" data-x="3" data-y="0" /><rect x="125" y="1" width="30" height="30" data-state="1" data-x="4" data-y="0" /><rect x="156" y="1" width="30" height="30" data-state="1" data-x="5" data-y="0" /><rect x="187" y="1" width="30" height="30" data-state="1" data-x="6" data-y="0" /><rect x="218" y="1" width="30" height="30" data-state="1" data-x="7" data-y="0" /><rect x="249" y="1" width="30" height="30" data-state="1" data-x="8" data-y="0" /><rect x="280" y="1" width="30" height="30" data-state="1" data-x="9" data-y="0" /><rect x="311" y="1" width="30" height="30" data-state="0" data-x="10" data-y="0" /><rect x="342" y="1" width="30" height="30" data-state="0" data-x="11" data-y="0" /><rect x="373" y="1" width="30" height="30" data-state="0" data-x="12" data-y="0" /><rect x="404" y="1" width="30" height="30" data-state="0" data-x="13" data-y="0" /><rect x="435" y="1" width="30" height="30" data-state="0" data-x="14" data-y="0" /><rect x="466" y="1" width="30" height="30" data-state="0" data-x="15" data-y="0" /><rect x="497" y="1" width="30" height="30" data-state="0" data-x="16" data-y="0" /><rect x="528" y="1" width="30" height="30" data-state="0" data-x="17" data-y="0" /><rect x="559" y="1" width="30" height="30" data-state="0" data-x="18" data-y="0" /><rect x="590" y="1" width="30" height="30" data-state="0" data-x="19" data-y="0" /><rect x="1" y="32" width="30" height="30" data-state="0" data-x="0" data-y="1" /><rect x="32" y="32" width="30" height="30" data-state="0" data-x="1" data-y="1" /><rect x="63" y="32" width="30" height="30" data-state="0" data-x="2" data-y="1" /><rect x="94" y="32" width="30" height="30" data-state="0" data-x="3" data-y="1" /><rect x="125" y="32" width="30" height="30" data-state="0" data-x="4" data-y="1" /><rect x="156" y="32" width="30" height="30" data-state="0" data-x="5" data-y="1" /><rect x="187" y="32" width="30" height="30" data-state="0" data-x="6" data-y="1" /><rect x="218" y="32" width="30" height="30" data-state="0" data-x="7" data-y="1" /><rect x="249" y="32" width="30" height="30" data-state="0" data-x="8" data-y="1" /><rect x="280" y="32" width="30" height="30" data-state="0" data-x="9" data-y="1" /><rect x="311" y="32" width="30" height="30" data-state="1" data-x="10" data-y="1" /><rect x="342" y="32" width="30" height="30" data-state="1" data-x="11" data-y="1" /><rect x="373" y="32" width="30" height="30" data-state="1" data-x="12" data-y="1" /><rect x="404" y="32" width="30" height="30" data-state="1" data-x="13" data-y="1" /><rect x="435" y="32" width="30" height="30" data-state="1" data-x="14" data-y="1" /><rect x="466" y="32" width="30" height="30" data-state="1" data-x="15" data-y="1" /><rect x="497" y="32" width="30" height="30" data-state="1" data-x="16" data-y="1" /><rect x="528" y="32" width="30" height="30" data-state="1" data-x="17" data-y="1" /><rect x="559" y="32" width="30" height="30" data-state="1" data-x="18" data-y="1" /><rect x="590" y="32" width="30" height="30" data-state="1" data-x="19" data-y="1" /><rect x="1" y="63" width="30" height="30" data-state="1" data-x="0" data-y="2" /><rect x="32" y="63" width="30" height="30" data-state="1" data-x="1" data-y="2" /><rect x="63" y="63" width="30" height="30" data-state="1" data-x="2" data-y="2" /><rect x="94" y="63" width="30" height="30" data-state="1" data-x="3" data-y="2" /><rect x="125" y="63" width="30" height="30" data-state="1" data-x="4" data-y="2" /><rect x="156" y="63" width="30" height="30" data-state="1" data-x="5" data-y="2" /><rect x="187" y="63" width="30" height="30" data-state="1" data-x="6" data-y="2" /><rect x="218" y="63" width="30" height="30" data-state="1" data-x="7" data-y="2" /><rect x="249" y="63" width="30" height="30" data-state="1" data-x="8" data-y="2" /><rect x="280" y="63" width="30" height="30" data-state="1" data-x="9" data-y="2" /><rect x="311" y="63" width="30" height="30" data-state="0" data-x="10" data-y="2" /><rect x="342" y="63" width="30" height="30" data-state="0" data-x="11" data-y="2" /><rect x="373" y="63" width="30" height="30" data-state="0" data-x="12" data-y="2" /><rect x="404" y="63" width="30" height="30" data-state="0" data-x="13" data-y="2" /><rect x="435" y="63" width="30" height="30" data-state="0" data-x="14" data-y="2" /><rect x="466" y="63" width="30" height="30" data-state="0" data-x="15" data-y="2" /><rect x="497" y="63" width="30" height="30" data-state="0" data-x="16" data-y="2" /><rect x="528" y="63" width="30" height="30" data-state="0" data-x="17" data-y="2" /><rect x="559" y="63" width="30" height="30" data-state="0" data-x="18" data-y="2" /><rect x="590" y="63" width="30" height="30" data-state="0" data-x="19" data-y="2" /></svg></div>
+                    <div class="pixel-grid-disclosure">clicking on this grid will change the color of the pixel, and your ip address will be logged. <a href="/grid">more info &rarr;</a></div>
+                </div>
+
+                <div class="featured-content-row">
+                    <a href="https://oauth2simplified.com/"><img src="https://oauth2simplified.com/images/book-cover-large.jpg" style="width:100%;height:auto;"></a>
+                    <!--
+                     <div class="featured-content-section">
+                     <h3>OAuth 2.0 Simplified</h3>
+                     <a href="/oauth/"><img src="/images/oauth-thin.jpg" style="width: 100%;"></a>
+                     </div>
+                     -->
+                    <!--
+                     <div class="featured-content-section">
+                     <h3>Backpedal Productions</h3>
+                     <a href="https://backpedal.tv/"><img src="/images/youtube-players.png" style="width: 100%;"></a>
+                     </div>
+                     -->
+                </div>
+
+
+                <div class="post-list">
+                    <ul>
+                        <li class="h-entry post-entry    post " id="post-id-37507">
+                            <div style="" class="content-area    ">
+                                <div class="u-checkin h-card">
+
+                                    <div class="checkin-venue" style="margin-top: -8px;">
+                                        <div class="left">
+                                            <div class="image">
+                                                <a href="/" class=""><img src="/images/profile.jpg" width="48" style="border-radius: 4px;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="venue-name">
+                                                at <a href="https://foursquare.com/v/57d1caf2498e0a640945318a" class="u-url p-name">StreamPDX</a>
+                                            </div>
+                                            <div>
+                                                <span class="p-location">Portland, Oregon</span>
+                                                &bull;
+                                                <span>Mon, February 12, 2018 2:54pm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display:none;">
+                                        <span class="p-latitude">45.542637</span>
+                                        <span class="p-longitude">-122.661012</span>
+                                    </div>
+                                </div>
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">Day 3 of fellowship interviews! 🎙</div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">OR</span>,
+                                        <span class="p-country">United States</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-day-sunny" title="Clear"></i>
+                                            50&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.542637"></data>
+                                        <data class="p-longitude" value="-122.661012"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="swarm-coin-icon"></i> 23 Coins</span>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/12/24/" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-12T14:54:36-08:00">
+                                            Mon, Feb 12, 2018 2:54pm -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.swarmapp.com/user/59164/checkin/5a821b2c61e53b05a15dd2b8" class="u-syndication syndication"><i class="icon-swarm"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37473">
+                            <div style="" class="content-area    ">
+                                <div class="u-checkin h-card">
+
+                                    <div class="checkin-venue" style="margin-top: -8px;">
+                                        <div class="left">
+                                            <div class="image">
+                                                <a href="/" class=""><img src="/images/profile.jpg" width="48" style="border-radius: 4px;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="venue-name">
+                                                at <a href="https://foursquare.com/v/57d1caf2498e0a640945318a" class="u-url p-name">StreamPDX</a>
+                                            </div>
+                                            <div>
+                                                <span class="p-location">Portland, Oregon</span>
+                                                &bull;
+                                                <span>Sun, February 11, 2018 3:19pm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display:none;">
+                                        <span class="p-latitude">45.542637</span>
+                                        <span class="p-longitude">-122.661012</span>
+                                    </div>
+                                </div>
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">Day 2 interviews <a href="/tag/streampdx">#<span class="p-category">streampdx</span></a></div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">OR</span>,
+                                        <span class="p-country">United States</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-cloud" title="Mostly Cloudy"></i>
+                                            47&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.542637"></data>
+                                        <data class="p-longitude" value="-122.661012"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="star empty icon"></i> 1 like</span>
+                                    <span><i class="swarm-coin-icon"></i> 3 Coins</span>
+                                </div>
+                                <div class="metaline tags pad" style="float: right;">
+                                    #<a href="/tag/streampdx" class="p-category">streampdx</a>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/11/14/" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-11T15:19:17-08:00">
+                                            Sun, Feb 11, 2018 3:19pm -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.swarmapp.com/user/59164/checkin/5a80cf7560d11b0bc31ff673" class="u-syndication syndication"><i class="icon-swarm"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37452">
+                            <div style="" class="content-area    ">
+                                <div class="u-checkin h-card">
+
+                                    <div class="checkin-venue" style="margin-top: -8px;">
+                                        <div class="left">
+                                            <div class="image">
+                                                <a href="/" class=""><img src="/images/profile.jpg" width="48" style="border-radius: 4px;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="venue-name">
+                                                at <a href="https://foursquare.com/v/57d1caf2498e0a640945318a" class="u-url p-name">StreamPDX</a>
+                                            </div>
+                                            <div>
+                                                <span class="p-location">Portland, Oregon</span>
+                                                &bull;
+                                                <span>Sat, February 10, 2018 2:56pm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display:none;">
+                                        <span class="p-latitude">45.542637</span>
+                                        <span class="p-longitude">-122.661012</span>
+                                    </div>
+                                </div>
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">First of the Podcast Fellowship interviews! 🎙</div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">OR</span>,
+                                        <span class="p-country">United States</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-day-cloudy" title="Partly Cloudy"></i>
+                                            49&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.542637"></data>
+                                        <data class="p-longitude" value="-122.661012"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="swarm-coin-icon"></i> 12 Coins</span>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/10/12/" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-10T14:56:23-08:00">
+                                            Sat, Feb 10, 2018 2:56pm -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.swarmapp.com/user/59164/checkin/5a7f78977564f74957bdb339" class="u-syndication syndication"><i class="icon-swarm"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37437">
+                            <div style="" class="content-area    ">
+                                <div class="u-checkin h-card">
+
+                                    <div class="checkin-venue" style="margin-top: -8px;">
+                                        <div class="left">
+                                            <div class="image">
+                                                <a href="/" class=""><img src="/images/profile.jpg" width="48" style="border-radius: 4px;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="venue-name">
+                                                at <a href="https://foursquare.com/v/5a74735d2aff313e976f8010" class="u-url p-name">Saima Thai &amp; Sushi</a>
+                                            </div>
+                                            <div>
+                                                <span class="p-location">Portland, Oregon</span>
+                                                &bull;
+                                                <span>Fri, February 9, 2018 4:56pm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display:none;">
+                                        <span class="p-latitude">45.535386</span>
+                                        <span class="p-longitude">-122.62126</span>
+                                    </div>
+                                </div>
+                                <data class="p-name" value="at Saima Thai &amp; Sushi"></data>
+                                <div class="multi-photo photos-2">
+                                    <a class="photo" data-featherlight="/2018/02/09/20/photo.jpg" href="/2018/02/09/20/photo.jpg" style="background-image:url(/2018/02/09/20/photo.jpg);">
+                                        <img src="/2018/02/09/20/photo.jpg" class="u-photo post-img">
+                                            </a>
+                                    <a class="photo" data-featherlight="/2018/02/09/20/photo-1.jpg" href="/2018/02/09/20/photo-1.jpg" style="background-image:url(/2018/02/09/20/photo-1.jpg);">
+                                        <img src="/2018/02/09/20/photo-1.jpg" class="u-photo post-img">
+                                            </a>
+                                </div>
+                                <div class="multi-photo-clear"></div>
+
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">OR</span>,
+                                        <span class="p-country">United States</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-cloudy" title="Overcast"></i>
+                                            49&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.535386"></data>
+                                        <data class="p-longitude" value="-122.62126"></data>
+                                    </span>
+                                </div>
+                                <div class="metaline person-tags pad">
+                                    <i class="user icon"></i>
+                                    <a href="http://anomalily.net/" class="u-category">anomalily.net</a>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="swarm-coin-icon"></i> 105 Coins</span>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/09/20/" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-09T16:56:57-08:00">
+                                            Fri, Feb 9, 2018 4:56pm -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.swarmapp.com/user/59164/checkin/5a7e4359eaf49a53168c6cd6" class="u-syndication syndication"><i class="icon-swarm"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37434">
+                            <div style="" class="content-area    ">
+                                <div class="u-checkin h-card">
+
+                                    <div class="checkin-venue" style="margin-top: -8px;">
+                                        <div class="left">
+                                            <div class="image">
+                                                <a href="/" class=""><img src="/images/profile.jpg" width="48" style="border-radius: 4px;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="venue-name">
+                                                at <a href="https://foursquare.com/v/5a6127dc67e5f251edf7d4bf" class="u-url p-name">Portland Roasting Coffee - Caf&eacute;</a>
+                                            </div>
+                                            <div>
+                                                <span class="p-location">Portland, Oregon</span>
+                                                &bull;
+                                                <span>Fri, February 9, 2018 3:49pm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display:none;">
+                                        <span class="p-latitude">45.519942</span>
+                                        <span class="p-longitude">-122.657079</span>
+                                    </div>
+                                </div>
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">Grand opening! Free coffee all day!</div>
+                                </div>
+                                <div class="multi-photo photos-2">
+                                    <a class="photo" data-featherlight="/2018/02/09/17/photo.jpg" href="/2018/02/09/17/photo.jpg" style="background-image:url(/2018/02/09/17/photo.jpg);">
+                                        <img src="/2018/02/09/17/photo.jpg" class="u-photo post-img">
+                                            </a>
+                                    <a class="photo" data-featherlight="/2018/02/09/17/photo-1.jpg" href="/2018/02/09/17/photo-1.jpg" style="background-image:url(/2018/02/09/17/photo-1.jpg);">
+                                        <img src="/2018/02/09/17/photo-1.jpg" class="u-photo post-img">
+                                            </a>
+                                </div>
+                                <div class="multi-photo-clear"></div>
+
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">OR</span>,
+                                        <span class="p-country">United States</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-cloudy" title="Overcast"></i>
+                                            52&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.519942"></data>
+                                        <data class="p-longitude" value="-122.657079"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="swarm-coin-icon"></i> 27 Coins</span>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/09/17/" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-09T15:49:03-08:00">
+                                            Fri, Feb 9, 2018 3:49pm -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.swarmapp.com/user/59164/checkin/5a7e336fcbcdee57d5100059" class="u-syndication syndication"><i class="icon-swarm"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37394">
+                            <div style="" class="content-area    ">
+                                <div class="u-checkin h-card">
+
+                                    <div class="checkin-venue" style="margin-top: -8px;">
+                                        <div class="left">
+                                            <div class="image">
+                                                <a href="/" class=""><img src="/images/profile.jpg" width="48" style="border-radius: 4px;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="venue-name">
+                                                at <a href="https://foursquare.com/v/4e1c9853c65bc4a776bc60dc" class="u-url p-name">Mozilla San Francisco</a>
+                                            </div>
+                                            <div>
+                                                <span class="p-location">San Francisco, California</span>
+                                                &bull;
+                                                <span>Thu, February 8, 2018 9:21am</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display:none;">
+                                        <span class="p-latitude">37.789613</span>
+                                        <span class="p-longitude">-122.388821</span>
+                                    </div>
+                                </div>
+                                <div class="pad">
+                                    <div class="post-text e-content p-name ">Donut delivery for <a href="https://foursquare.com/user/476">Tantek</a>! 🍩</div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">San Francisco</span>,
+                                        <span class="p-region">CA</span>,
+                                        <span class="p-country">United States</span>
+                                        <data class="p-latitude" value="37.789613"></data>
+                                        <data class="p-longitude" value="-122.388821"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="swarm-coin-icon"></i> 10 Coins</span>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/08/29/" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-08T09:21:44-08:00">
+                                            Thu, Feb 8, 2018 9:21am -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.swarmapp.com/user/59164/checkin/5a7c8728d0a1494a264150fa" class="u-syndication syndication"><i class="icon-swarm"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37408">
+                            <div style="" class="content-area    ">
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">Good morning San Francisco!</div>
+                                </div>
+                                <a href="https://aaronparecki.com/2018/02/08/39/"><img src="/2018/02/08/39/photo.jpg" class="u-photo post-img photo"></a>
+
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-card">
+                                        <span class="p-name">San Francisco, California</span>
+                                        in
+                                        <span class="p-locality">San Francisco</span>,
+                                        <span class="p-region">California</span>,
+                                        <span class="p-country">USA</span>
+                                        <data class="p-latitude" value="37.775"></data>
+                                        <data class="p-longitude" value="-122.418"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="star empty icon"></i> 10 likes</span>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/08/39/" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-08T07:57:21-08:00">
+                                            Thu, Feb 8, 2018 7:57am -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.instagram.com/p/Be8Qk3lgtqT/" class="u-syndication syndication"><i class="instagram icon"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37401">
+                            <div style="" class="content-area    ">
+                                <div class="u-checkin h-card">
+
+                                    <div class="checkin-venue" style="margin-top: -8px;">
+                                        <div class="left">
+                                            <div class="image">
+                                                <a href="/" class=""><img src="/images/profile.jpg" width="48" style="border-radius: 4px;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="venue-name">
+                                                at <a href="https://foursquare.com/v/4afb58b2f964a5202d1d22e3" class="u-url p-name">TriMet Hollywood/NE 42nd Ave Transit Center</a>
+                                            </div>
+                                            <div>
+                                                <span class="p-location">Portland, Oregon</span>
+                                                &bull;
+                                                <span>Thu, February 8, 2018 4:47am</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display:none;">
+                                        <span class="p-latitude">45.532787</span>
+                                        <span class="p-longitude">-122.620756</span>
+                                    </div>
+                                </div>
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">Early morning</div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">OR</span>,
+                                        <span class="p-country">United States</span>
+                                        <data class="p-latitude" value="45.532787"></data>
+                                        <data class="p-longitude" value="-122.620756"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="swarm-coin-icon"></i> 1 Coin</span>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/08/36/" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-08T04:47:48-08:00">
+                                            Thu, Feb 8, 2018 4:47am -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.swarmapp.com/user/59164/checkin/5a7c46f42c7eb91f0a193284" class="u-syndication syndication"><i class="icon-swarm"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37365">
+                            <div style="" class="content-area    ">
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">It's so nice to be able to go downtown and back in an evening and still have 60% battery. <a href="/tag/tinyvictories">#<span class="p-category">tinyvictories</span></a> <a href="/tag/newbattery">#<span class="p-category">newbattery</span></a></div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">Oregon</span>,
+                                        <span class="p-country">USA</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-night-alt-partly-cloudy" title="Partly Cloudy"></i>
+                                            48&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.52998"></data>
+                                        <data class="p-longitude" value="-122.65771"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline tags pad" style="float: right;">
+                                    #<a href="/tag/tinyvictories" class="p-category">tinyvictories</a>
+                                    #<a href="/tag/newbattery" class="p-category">newbattery</a>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/07/16/" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-07T19:56:30-08:00">
+                                            Wed, Feb 7, 2018 7:56pm -08:00
+                                        </time>
+                                    </a>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37356">
+                            <div style="" class="content-area    ">
+                                <div class="pad">
+                                    <h2 class="p-name">IndieAuth-Client-PHP 0.3.1</h2>
+
+                                    <div class="metaline"><a href="https://aaronparecki.com/2018/02/07/7/indieauth">Wed, Feb 7, 2018 11:30am -08:00</a></div>
+
+
+                                    <div class="post-text e-content  "><p>This release includes two new methods for quickly developing an IndieAuth client.</p>
+
+                                        <p>The library can now handle all the boilerplate work of generating a state parameter, URL canonicalization, and state management between the request and callback.</p>
+
+                                        <p>Developing an IndieAuth client now requires just setting a few configuration variables and deciding how to show error messages in your application. See the code below for an example of using the new features!</p>
+
+                                        <h3 id="index">index.php</h3>
+
+                                        <pre><code>&lt;form action="/login.php" method="post"&gt;
+                                            &lt;input type="url" name="url"&gt;
+                                            &lt;input type="submit" value="Log In"&gt;
+                                            &lt;/form&gt;
+                                        </code></pre>
+
+                                        <h3 id="login">login.php</h3>
+
+                                        <pre><code>&lt;?php
+                                            require('vendor/autoload.php');
+                                            if(!isset($_POST['url'])) {
+                                            die('Missing URL');
+                                            }
+
+                                            // Start a session for the library to be able to save state between requests.
+                                            session_start();
+
+                                            // You'll need to set up two pieces of information before you can use the client,
+                                            // the client ID and and the redirect URL.
+                                            // The client ID should be the home page of your app.
+                                            IndieAuth\Client::$clientID = 'https://example.com/client/';
+
+                                            // The redirect URL is where the user will be returned to after they approve the request.
+                                            IndieAuth\Client::$redirectURL = 'https://example.com/client/redirect.php';
+
+                                            // Pass the user's URL and your requested scope to the client.
+                                            // If you are writing a Micropub client, you should include at least the "create" scope.
+                                            // If you are just trying to log the user in, you can omit the second parameter.
+                                            list($authorizationURL, $error) = IndieAuth\Client::begin($_POST['url']);
+                                            // or list($authorizationURL, $error) = IndieAuth\Client::begin($_POST['url']);
+
+                                            // Check whether the library was able to discover the necessary endpoints
+                                            if($error) {
+                                            echo "&lt;p&gt;Error: ".$error['error']."&lt;/p&gt;";
+                                            echo "&lt;p&gt;".$error['error_description']."&lt;/p&gt;";
+                                            } else {
+                                            // Redirect the user to their authorization endpoint
+                                            header('Location: '.$authorizationURL);
+                                            }
+                                        </code></pre>
+
+                                        <h3 id="redirect">redirect.php</h3>
+
+                                        <pre><code>&lt;?php
+                                            require('vendor/autoload.php');
+
+                                            session_start();
+                                            IndieAuth\Client::$clientID = 'https://example.com/client/';
+                                            IndieAuth\Client::$redirectURL = 'https://example.com/client/redirect.php';
+
+                                            list($user, $error) = IndieAuth\Client::complete($_GET);
+
+                                            if($error) {
+                                            echo "&lt;p&gt;Error: ".$error['error']."&lt;/p&gt;";
+                                            echo "&lt;p&gt;".$error['error_description']."&lt;/p&gt;";
+                                            } else {
+                                            // Login succeeded!
+                                            // If you requested a scope, then there will be an access token in the response.
+                                            // Otherwise there will just be the user's URL.
+                                            echo "URL: ".$user['me']."&lt;br&gt;";
+                                            if(isset($user['access_token'])) {
+                                            echo "Access Token: ".$user['access_token']."&lt;br&gt;";
+                                            echo "Scope: ".$user['scope']."&lt;br&gt;";
+                                            }
+                                            }
+                                        </code></pre>
+                                    </div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">Oregon</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-day-cloudy" title="Partly Cloudy"></i>
+                                            55&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.53555"></data>
+                                        <data class="p-longitude" value="-122.621296"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="comment outline icon"></i> 2 replies</span>
+                                </div>
+                                <div class="metaline tags pad" style="float: right;">
+                                    #<a href="/tag/indieauth" class="p-category">indieauth</a>
+                                    #<a href="/tag/indieweb" class="p-category">indieweb</a>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/07/7/indieauth" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-07T11:30:16-08:00">
+                                            Wed, Feb 7, 2018 11:30am -08:00
+                                        </time>
+                                    </a>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37345">
+                            <div style="" class="content-area    ">
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">omg even Patreon has a snapchat now. <a href="https://blog.patreon.com/lens/"><span class="protocol">https://</span>blog.patreon.com/lens/</a></div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">Oregon</span>,
+                                        <span class="p-country">USA</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-cloudy" title="Overcast"></i>
+                                            51&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.53543"></data>
+                                        <data class="p-longitude" value="-122.6213"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/06/17/" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-06T16:47:09-08:00">
+                                            Tue, Feb 6, 2018 4:47pm -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://twitter.com/aaronpk/status/961038602271510528" class="u-syndication syndication"><i class="twitter icon"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37320">
+                            <div style="" class="content-area    ">
+                                <div class="pad">
+                                    <h2 class="p-name">OwnYourGram Updates</h2>
+
+                                    <div class="metaline"><a href="https://aaronparecki.com/2018/02/05/6/ownyourgram">Mon, Feb 5, 2018 10:12am -08:00</a></div>
+
+
+                                    <div class="post-text e-content  "><p>Just pushed a few changes to OwnYourGram this morning! Here's what changed:</p>
+                                        <p>You can now see the schedule of your account so you know when to expect photos! You'll see which tier you're at, and how long until your account is next polled.</p>
+                                        <figure>
+                                            <img src="https://aaronparecki.com/2018/02/05/6/image-1.png" alt="" />
+                                        </figure>
+                                        <p>You can now add a list of tags that will be sent along with every photo! This is useful if you want all your photos to be tagged "photo" or "instagram" for example.</p>
+                                        <figure>
+                                            <img src="https://aaronparecki.com/2018/02/05/6/image-2.png" alt="" />
+                                        </figure>
+                                        <p>
+                                        I also updated the <a href="https://ownyourgram.com/docs">documentation</a> to include an example of the JSON post format that OwnYourGram can send.
+                                        <br />
+                                        </p>
+                                        <p>If your site has a <a href="https://www.w3.org/TR/micropub/#media-endpoint">Media Endpoint</a>, then OwnYourGram will first upload your photos to your Media Endpoint, and include those URLs in the Micropub request. </p>
+                                        <p>That's it for now! Happy OwnYourGramming!</p></div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">Oregon</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-cloud" title="Mostly Cloudy"></i>
+                                            49&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.535497"></data>
+                                        <data class="p-longitude" value="-122.621251"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="star empty icon"></i> 3 likes</span>
+                                </div>
+                                <div class="metaline tags pad" style="float: right;">
+                                    #<a href="/tag/ownyourgram" class="p-category">ownyourgram</a>
+                                    #<a href="/tag/indieweb" class="p-category">indieweb</a>
+                                    #<a href="/tag/changelog" class="p-category">changelog</a>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/05/6/ownyourgram" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-05T10:12:51-08:00">
+                                            Mon, Feb 5, 2018 10:12am -08:00
+                                        </time>
+                                    </a>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37260">
+                            <div style="" class="content-area    ">
+                                <div class="u-checkin h-card">
+
+                                    <div class="checkin-venue" style="margin-top: -8px;">
+                                        <div class="left">
+                                            <div class="image">
+                                                <a href="/" class=""><img src="/images/profile.jpg" width="48" style="border-radius: 4px;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="venue-name">
+                                                at <a href="https://foursquare.com/v/4c799cac81bca0937b1ffe14" class="u-url p-name">Rust Coffee Lounge</a>
+                                            </div>
+                                            <div>
+                                                <span class="p-location">Portland, Oregon</span>
+                                                &bull;
+                                                <span>Fri, February 2, 2018 6:11am</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display:none;">
+                                        <span class="p-latitude">45.539224</span>
+                                        <span class="p-longitude">-122.618192</span>
+                                    </div>
+                                </div>
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">Ran out of coffee at home <a href="/emoji/☕" class="emoji">☕</a>️<a href="/emoji/😨" class="emoji">😨</a></div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">Oregon</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-cloudy" title="Overcast"></i>
+                                            50&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.535555"></data>
+                                        <data class="p-longitude" value="-122.621232"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="swarm-coin-icon"></i> 75 Coins</span>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/02/2/" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-02T06:11:01-08:00">
+                                            Fri, Feb 2, 2018 6:11am -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.swarmapp.com/user/59164/checkin/5a7471758c812a77cf89395a" class="u-syndication syndication"><i class="icon-swarm"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37247">
+                            <div style="" class="content-area    ">
+                                <div class="u-checkin h-card">
+
+                                    <div class="checkin-venue" style="margin-top: -8px;">
+                                        <div class="left">
+                                            <div class="image">
+                                                <a href="/" class=""><img src="/images/profile.jpg" width="48" style="border-radius: 4px;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="venue-name">
+                                                at <a href="https://foursquare.com/v/504f862ce4b0baeda5420b7d" class="u-url p-name">Imperial</a>
+                                            </div>
+                                            <div>
+                                                <span class="p-location">Portland, Oregon</span>
+                                                &bull;
+                                                <span>Thu, February 1, 2018 12:32pm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display:none;">
+                                        <span class="p-latitude">45.521108</span>
+                                        <span class="p-longitude">-122.678698</span>
+                                    </div>
+                                </div>
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">Post-dentist treat</div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">Oregon</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-rain" title="Rain"></i>
+                                            50&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.521108"></data>
+                                        <data class="p-longitude" value="-122.678699"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="swarm-coin-icon"></i> 2 Coins</span>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/01/15/" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-01T12:32:52-08:00">
+                                            Thu, Feb 1, 2018 12:32pm -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.swarmapp.com/user/59164/checkin/5a737974419a9e3ff4397092" class="u-syndication syndication"><i class="icon-swarm"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37241">
+                            <div style="" class="content-area    ">
+                                <div class="u-checkin h-card">
+
+                                    <div class="checkin-venue" style="margin-top: -8px;">
+                                        <div class="left">
+                                            <div class="image">
+                                                <a href="/" class=""><img src="/images/profile.jpg" width="48" style="border-radius: 4px;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="venue-name">
+                                                at <a href="https://foursquare.com/v/4fb1782ce4b03b8c9d7bef93" class="u-url p-name">Weissman Dental</a>
+                                            </div>
+                                            <div>
+                                                <span class="p-location">Portland, Oregon</span>
+                                                &bull;
+                                                <span>Thu, February 1, 2018 9:57am</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display:none;">
+                                        <span class="p-latitude">45.519157</span>
+                                        <span class="p-longitude">-122.683784</span>
+                                    </div>
+                                </div>
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain"><a href="/emoji/😬" class="emoji">😬</a></div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">Oregon</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-cloud" title="Mostly Cloudy"></i>
+                                            47&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.519192"></data>
+                                        <data class="p-longitude" value="-122.683629"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="swarm-coin-icon"></i> 8 Coins</span>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/02/01/9/" class="u-url">
+                                        <time class="dt-published" datetime="2018-02-01T09:57:12-08:00">
+                                            Thu, Feb 1, 2018 9:57am -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.swarmapp.com/user/59164/checkin/5a7354f8419a9e3ff41bd0a3" class="u-syndication syndication"><i class="icon-swarm"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37221">
+                            <div style="" class="content-area    ">
+                                <div class="u-checkin h-card">
+
+                                    <div class="checkin-venue" style="margin-top: -8px;">
+                                        <div class="left">
+                                            <div class="image">
+                                                <a href="/" class=""><img src="/images/profile.jpg" width="48" style="border-radius: 4px;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="venue-name">
+                                                at <a href="https://foursquare.com/v/4e012663c65b896d116cbd60" class="u-url p-name">Little Big Burger</a>
+                                            </div>
+                                            <div>
+                                                <span class="p-location">Portland, Oregon</span>
+                                                &bull;
+                                                <span>Wed, January 31, 2018 11:33am</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display:none;">
+                                        <span class="p-latitude">45.550131</span>
+                                        <span class="p-longitude">-122.67576</span>
+                                    </div>
+                                </div>
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">Early lunch <a href="/emoji/🍔" class="emoji">🍔</a></div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">Oregon</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-cloudy" title="Overcast"></i>
+                                            47&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.550104"></data>
+                                        <data class="p-longitude" value="-122.675761"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="swarm-coin-icon"></i> 6 Coins</span>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/01/31/8/" class="u-url">
+                                        <time class="dt-published" datetime="2018-01-31T11:33:43-08:00">
+                                            Wed, Jan 31, 2018 11:33am -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.swarmapp.com/user/59164/checkin/5a721a178b98fd51be38c5d2" class="u-syndication syndication"><i class="icon-swarm"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37219">
+                            <div style="" class="content-area    ">
+                                <div class="u-checkin h-card">
+
+                                    <div class="checkin-venue" style="margin-top: -8px;">
+                                        <div class="left">
+                                            <div class="image">
+                                                <a href="/" class=""><img src="/images/profile.jpg" width="48" style="border-radius: 4px;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="venue-name">
+                                                at <a href="https://foursquare.com/v/51c4c778498e9604994f223c" class="u-url p-name">Mississippi Loft (AirBnB)</a>
+                                            </div>
+                                            <div>
+                                                <span class="p-location">Portland, Oregon</span>
+                                                &bull;
+                                                <span>Wed, January 31, 2018 10:13am</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display:none;">
+                                        <span class="p-latitude">45.549935</span>
+                                        <span class="p-longitude">-122.676169</span>
+                                    </div>
+                                </div>
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain"><a href="/emoji/🚰" class="emoji">🚰</a></div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">Oregon</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-cloudy" title="Overcast"></i>
+                                            45&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.55003"></data>
+                                        <data class="p-longitude" value="-122.676472"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="swarm-coin-icon"></i> 4 Coins</span>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/01/31/6/" class="u-url">
+                                        <time class="dt-published" datetime="2018-01-31T10:13:37-08:00">
+                                            Wed, Jan 31, 2018 10:13am -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.swarmapp.com/user/59164/checkin/5a72075128374e0cdfb186bf" class="u-syndication syndication"><i class="icon-swarm"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37207">
+                            <div style="" class="content-area    ">
+                                <div class="u-checkin h-card">
+
+                                    <div class="checkin-venue" style="margin-top: -8px;">
+                                        <div class="left">
+                                            <div class="image">
+                                                <a href="/" class=""><img src="/images/profile.jpg" width="48" style="border-radius: 4px;"></a>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="venue-name">
+                                                at <a href="https://foursquare.com/v/55dfb181498e3be4f2835967" class="u-url p-name">Alchemy Code Lab</a>
+                                            </div>
+                                            <div>
+                                                <span class="p-location">Portland, Oregon</span>
+                                                &bull;
+                                                <span>Tue, January 30, 2018 5:36pm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display:none;">
+                                        <span class="p-latitude">45.523394</span>
+                                        <span class="p-longitude">-122.680919</span>
+                                    </div>
+                                </div>
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">Setting up for <a href="/tag/donutjs">#<span class="p-category">donutjs</span></a></div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">Oregon</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-cloud" title="Mostly Cloudy"></i>
+                                            50&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.523532"></data>
+                                        <data class="p-longitude" value="-122.680974"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline responses-summary pad">
+                                    <span><i class="swarm-coin-icon"></i> 42 Coins</span>
+                                </div>
+                                <div class="metaline tags pad" style="float: right;">
+                                    #<a href="/tag/donutjs" class="p-category">donutjs</a>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/01/30/26/" class="u-url">
+                                        <time class="dt-published" datetime="2018-01-30T17:36:24-08:00">
+                                            Tue, Jan 30, 2018 5:36pm -08:00
+                                        </time>
+                                    </a>
+                                    <span class="syndications">
+                                        <a href="https://www.swarmapp.com/user/59164/checkin/5a711d98588e362d4c84e813" class="u-syndication syndication"><i class="icon-swarm"></i></a>
+                                    </span>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37204">
+                            <div style="" class="content-area    ">
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">&quot;A photoblog is like Instagram, only it's harder to use, your friends aren't on it, and it's owned by you, not a megacorp.&quot; <a href="/emoji/😂" class="emoji">😂</a> <a href="https://www.kickstarter.com/projects/davidfg/you-have-to-see-this-place"><span class="protocol">https://</span>www.kickstarter.com/projects/davidfg/you-have-to-see-this-place</a></div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">Oregon</span>,
+                                        <span class="p-country">USA</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-cloud" title="Mostly Cloudy"></i>
+                                            50&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.53549"></data>
+                                        <data class="p-longitude" value="-122.62119"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline tags pad" style="float: right;">
+                                    #<a href="/tag/indieweb" class="p-category">indieweb</a>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/01/30/23/" class="u-url">
+                                        <time class="dt-published" datetime="2018-01-30T15:22:56-08:00">
+                                            Tue, Jan 30, 2018 3:22pm -08:00
+                                        </time>
+                                    </a>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                        <li class="h-entry post-entry    post " id="post-id-37194">
+                            <div style="" class="content-area    ">
+                                <div class="pad">
+                                    <div class="post-text e-content p-name content-type-plain">ah jeez, Nest changed the mounting bracket and power adapter between their 2014 and 2018 models, so now I have to go rewire this instead of just swapping it out.</div>
+                                </div>
+                                <div class="metaline pad">
+                                    <i class="marker icon"></i>
+                                    <span class="p-location h-adr">
+                                        <span class="p-locality">Portland</span>,
+                                        <span class="p-region">Oregon</span>,
+                                        <span class="p-country">USA</span>
+                                        <span class="weather">
+                                            <span>&bull;</span>
+                                            <i class="wi wi-cloudy" title="Overcast"></i>
+                                            49&deg;F
+                                        </span>
+                                        <data class="p-latitude" value="45.55013"></data>
+                                        <data class="p-longitude" value="-122.67619"></data>
+                                    </span>
+                                </div>
+
+                                <div class="metaline tags pad" style="float: right;">
+                                    #<a href="/tag/homeimprovement" class="p-category">homeimprovement</a>
+                                </div>
+                                <div class="metaline pad">
+                                    <a href="https://aaronparecki.com/2018/01/30/13/" class="u-url">
+                                        <time class="dt-published" datetime="2018-01-30T12:03:47-08:00">
+                                            Tue, Jan 30, 2018 12:03pm -08:00
+                                        </time>
+                                    </a>
+                                </div>
+                                <a class="u-author" href="/"></a>
+
+                                <div style="clear:both;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="load-more">
+                        <a href="/?before=20180130T120347-0800" class="infinite " rel="prev">next</a>
+                    </div>
+                </div>
+
+            </div>
+            <script src="/assets/homepage-streaming.js?3"></script>
+        </div>
+
+        <footer class="sticky-footer">
+            <div style="margin-top: 1rem;"></div>
+            <div class="ui container">
+                <div class="channels">
+                    <ul class="footer-links">
+                        <li><a href="/all">All</a></li>
+                        <li><a href="/articles">Articles</a></li>
+                        <li><a href="/bookmarks">Bookmarks</a></li>
+                        <li><a href="/notes">Notes</a></li>
+                        <li><a href="/photos">Photos</a></li>
+                        <li><a href="/reviews">Reviews</a></li>
+                        <li><a href="/sleep">Sleep</a></li>
+                        <li><a href="/travel">Travel</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="elsewhere">
+                    <ul class="footer-links" id="relme">
+                        <li><a href="https://twitter.com/aaronpk" rel="me"><i class="twitter icon"></i></a></li>
+                        <li><a href="https://twitter.com/w7apk" rel="me"><i class="twitter icon"></i></a></li>
+                        <li><a href="https://facebook.com/aaronpk" rel="me"><i class="facebook icon"></i></a></li>
+                        <li><a href="https://instagram.com/aaronpk" rel="me"><i class="instagram icon"></i></a></li>
+                        <li><a href="http://flickr.com/aaronpk" rel="me"><i class="flickr icon"></i></a></li>
+                        <li><a href="https://github.com/aaronpk" rel="me"><i class="github icon"></i></a></li>
+                        <li><a href="https://youtube.com/TheAaronpk" rel="me"><i class="youtube play icon"></i></a></li>
+                        <li><a href="https://google.com/+aaronpk" rel="me"><i class="google plus icon"></i></a></li>
+                        <li><a href="http://foursquare.com/aaronpk" rel="me"><i class="foursquare icon"></i></a></li>
+                        <li><a href="http://www.linkedin.com/in/aaronparecki" rel="me"><i class="linkedin icon"></i></a></li>
+                        <li><a href="http://aaronpk.eventbrite.com/" rel="me"><i class="icon-eventbrite icon"></i></a></li>
+                        <li><a href="http://www.slideshare.net/aaronpk" rel="me"><i class="slideshare icon"></i></a></li>
+                        <li><a href="https://www.beeminder.com/aaronpk" rel="me"><i class="icon-beeminder icon"></i></a></li>
+                        <li><a href="http://www.colourlovers.com/lover/aaronpk" rel="me"><i class="icon-colourlovers icon"></i></a></li>
+                        <li><a href="http://www.last.fm/user/aaron_pk" rel="me"><i class="lastfm icon"></i></a></li>
+                        <li><a href="https://www.w3.org/users/59996" rel="me"><i class="icon-w3c icon"></i></a></li>
+                        <li><a href="https://keybase.io/aaronpk/" rel="me"><i class="key icon"></i></a></li>
+                        <li><a href="https://cash.me/$aaronpk" rel="me payment"><i class="icon-squarecash icon"></i></a></li>
+                        <li><a href="https://venmo.com/aaronpk" rel="me payment"><i class="icon-venmo icon"></i></a></li>
+                        <li><a href="https://paypal.me/apk" rel="me payment"><i class="paypal icon"></i></a></li>
+                        <li><a href="mailto:aaron@parecki.com" rel="me"><i class="mail icon"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer">
+                <a href="/login" class="hidden-login"></a>
+                <div>
+                    <span>&copy; 1999-2018 by Aaron Parecki.</span>
+                    <span>Powered by <a href="http://p3k.io/">p3k</a>.</span>
+                    <span>This site supports <a href="http://webmention.net/">Webmention</a>.</span>
+                </div>
+                <div>
+                    <span>Except where otherwise noted, text content on this site is licensed
+                        under a <a href="http://creativecommons.org/licenses/by/3.0/" rel="license">Creative Commons Attribution 3.0 License</a>.</span>
+                </div>
+                <div class="badges" style="padding-top: 8px;">
+                    <a href="https://indieweb.org/"><img src="/assets/badges/indieweb.png" width="80" height="15" alt="IndieWebCamp" style="image-rendering: pixelated;"></a>
+                    <a href="http://microformats.org/"><img src="/assets/badges/microformats.png" width="80" height="15" alt="Microformats" style="image-rendering: pixelated;"></a>
+                    <a href="https://indieweb.org/Webmention"><img src="/assets/badges/webmention.png" width="80" height="15" alt="Webmention" style="image-rendering: pixelated;"></a>
+                    <img src="/assets/badges/w3c-valid-html.png" width="80" height="15" alt="W3C HTML5" style="image-rendering: pixelated;">
+                        <a href="http://creativecommons.org/licenses/by/3.0/"><img src="/assets/badges/cc-commons.png" width="80" height="15" alt="Creative Commons" style="image-rendering: pixelated;"></a>
+                        </div>
+            </div>
+        </footer>
+
+        <input type="hidden" id="permalink" value="">
+
+            <script src="/assets/script.js"></script>
+            <script src="/assets/webmention.js"></script>
+
+            <script src="/assets/admin.js"></script>
+
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                 ga('create', 'UA-4617305-1', 'auto');
+                 ga('send', 'pageview');
+
+                </script>
+
+            </body>
+</html>
+
